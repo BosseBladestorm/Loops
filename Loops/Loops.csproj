@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PrintArray.cs" />
+    <Compile Include="Assets\ReverseArray.cs" />
     <Compile Include="Assets\SearchArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
