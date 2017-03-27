@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BubbleSort.cs" />
     <Compile Include="Assets\PrintArray.cs" />
     <Compile Include="Assets\ReverseArray.cs" />
     <Compile Include="Assets\SearchArray.cs" />
