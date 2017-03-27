@@ -14,12 +14,12 @@ public class ReverseArray : MonoBehaviour {
         list1.Add(420);
         list1.Add(666);
         list1.Add(999);
-        //makes a loop while i is less than the list length.
+        //Makes a reverse loop that goes as long as its not at the beginning of the list
         for (int i = list1.Count - 1; i >= 0; i--)
         {
             list2.Add(list1[i]);
         }
-
+        //Makes a loop that prints the list
         for (int i = 0; i < list2.Count; i++)
         {
             print(list2[i]);

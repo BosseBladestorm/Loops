@@ -17,8 +17,10 @@ public class SearchArray : MonoBehaviour {
         //makes a loop while i is less than the list length.
         for (int i = 0; i < list.Count; i++)
         {
+            //Checks if the compared number is in the list
             if (list[i] == compare)
             {
+                //prints the index if the number exists in the list
                 print(i);
             }
         }
